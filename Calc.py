@@ -6,13 +6,13 @@ def main():
     except:
         print('Invalid Input. Exiting gracefully.')
         return #exits gracefully in wake of errors.
-    if (operation == '1'):
-        print(num1, num2)
-    elif (operation == '2'):
+    if (operation == '1', 'Add'):
+        print(num1 + num2)
+    elif (operation == '2', 'Subtract'):
         print(num1 - num2) 
-    elif (operation == '3'):
+    elif (operation == '3', 'Multiply'):
         print(num1 * num2)
-    elif (operation == '4'):
+    elif (operation == '4', 'Divide'):
         print(num1 / num2)
     else:
         print('Argument unknown.')
